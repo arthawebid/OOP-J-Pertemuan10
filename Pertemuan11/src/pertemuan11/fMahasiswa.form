@@ -214,6 +214,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Baru"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cBARUActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="cUBAH">
       <Properties>
@@ -224,6 +227,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Hapus"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cHAPUSActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="cTUTUP">
       <Properties>
